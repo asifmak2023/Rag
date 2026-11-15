@@ -142,6 +142,12 @@ ai-sr-engineer-manual/
   102-shadow-mode.md
   103-code-review-ml.md
   104-pre-interview-night.md
+  105-temperature-scaling.md
+  106-mixup.md
+  107-batch-predict.md
+  108-joblib-njobs.md
+  109-seed-split-story.md
+  110-what-not-to-study.md
   INDEX.md
   requirements.txt
   requirements-light.txt

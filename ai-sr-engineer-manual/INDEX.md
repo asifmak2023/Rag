@@ -41,6 +41,8 @@ Start here if you are lost.
 37. `95` parquet, `96` SLO/runbook, `97` gini, `98` residuals
 38. `99` Brier, `100` ridge/lasso, `101` numeric softmax
 39. `102` shadow mode, `103` ML code review, `104` night-before
+40. `105` temperature scaling, `106` mixup, `107` batch predict
+41. `108` n_jobs, `109` frozen splits, `110` what not to study
 
 Install light (no torch/tf) for weeks 1-4:
 

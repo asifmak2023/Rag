@@ -80,6 +80,8 @@ ORDER = [
     "99_brier.py",
     "100_ridge_lasso.py",
     "101_softmax_stable.py",
+    "105_temperature.py",
+    "107_batch_predict.py",
 ]
 
 
