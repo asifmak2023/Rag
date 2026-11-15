@@ -85,6 +85,14 @@ ai-sr-engineer-manual/
   45-feature-store-lite.md
   46-errors-you-will-see.md
   47-karachi-onsite-logistics.md
+  48-reproducibility.md
+  49-onnx-export.md
+  50-api-auth.md
+  51-imbalanced-learning.md
+  52-eda-plots.md
+  53-unit-test-models.md
+  54-logging-json.md
+  55-model-card.md
   INDEX.md
   requirements.txt
   requirements-light.txt

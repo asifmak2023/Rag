@@ -42,6 +42,10 @@ ORDER = [
     "42_ndcg.py",
     "43_batch_score.py",
     "44_mean_median.py",
+    "48_versions.py",
+    "49_onnx_sklearn.py",
+    "51_imbalance.py",
+    "52_eda.py",
 ]
 
 

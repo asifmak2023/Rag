@@ -24,6 +24,10 @@
 - [ ] `labs/42_ndcg.py`
 - [ ] `labs/43_batch_score.py`
 - [ ] `labs/44_mean_median.py`
+- [ ] `labs/48_versions.py`
+- [ ] `labs/49_onnx_sklearn.py`
+- [ ] `labs/51_imbalance.py`
+- [ ] `labs/52_eda.py`
 - [ ] `labs/tests/test_predict_contract.py` via pytest
 - [ ] `labs/churn_proto/tests/test_features.py` via pytest
 

@@ -22,7 +22,7 @@ production loop. This table is the gap.
 | Python, R, Java, C++ + TF / PyTorch / sklearn | Daily Python. Know when C++/MATLAB still win. TF and PyTorch both | 01, 04, 05, 15 |
 | Collect, preprocess, analyze large data | pandas, sklearn pipelines, chunked CSV, SQL extracts | 03, 06 |
 | Data cleaning, feature engineering, EDA | Missing values, leakage, encodings, plots you can defend | 03, 06 |
-| Deploy: containers, microservices, cloud | Docker image, REST service, health checks, simple cloud notes | 08 |
+| Deploy: containers, microservices, cloud | Docker image, REST service, health checks, ONNX, API key | 08, 49, 50 |
 | Test performance, reliability, security | Metrics, holdout, adversarial inputs, auth on the API | 07, 08 |
 | Research and experiments | Baselines first, then ablations, then a written result | 10 |
 | Monitor and recommend improvements | Logs, drift sketch, latency, error budget | 09 |

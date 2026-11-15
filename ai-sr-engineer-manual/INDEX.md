@@ -22,6 +22,9 @@ Start here if you are lost.
 18. `41` time series, `42` ranking, `43` batch scoring
 19. `44` stats, `45` feature store lite, `46` error table
 20. `47` onsite logistics for Bahria Complex 1
+21. `48` seeds/versions, `49` ONNX, `50` API key
+22. `51` imbalance, `52` EDA tour
+23. `53` pytest, `54` JSON logs, `55` model card
 
 Install light (no torch/tf) for weeks 1-4:
 
