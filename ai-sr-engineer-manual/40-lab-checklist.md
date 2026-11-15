@@ -59,6 +59,9 @@
 - [ ] `labs/95_parquet.py`
 - [ ] `labs/97_gini.py`
 - [ ] `labs/98_residuals.py`
+- [ ] `labs/99_brier.py`
+- [ ] `labs/100_ridge_lasso.py`
+- [ ] `labs/101_softmax_stable.py`
 - [ ] `labs/tests/test_predict_contract.py` via pytest
 - [ ] `labs/churn_proto/tests/test_features.py` via pytest
 

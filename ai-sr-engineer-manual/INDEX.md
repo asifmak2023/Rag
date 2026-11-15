@@ -39,6 +39,8 @@ Start here if you are lost.
 35. `90` time-split assert, `91` dummy baselines
 36. `92` learning curves, `93` permutation importance, `94` isolation forest
 37. `95` parquet, `96` SLO/runbook, `97` gini, `98` residuals
+38. `99` Brier, `100` ridge/lasso, `101` numeric softmax
+39. `102` shadow mode, `103` ML code review, `104` night-before
 
 Install light (no torch/tf) for weeks 1-4:
 

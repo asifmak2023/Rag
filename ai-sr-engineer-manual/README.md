@@ -136,6 +136,12 @@ ai-sr-engineer-manual/
   96-slo-runbook.md
   97-tree-impurity.md
   98-residuals.md
+  99-brier.md
+  100-ridge-lasso.md
+  101-numerics.md
+  102-shadow-mode.md
+  103-code-review-ml.md
+  104-pre-interview-night.md
   INDEX.md
   requirements.txt
   requirements-light.txt

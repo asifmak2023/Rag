@@ -77,6 +77,9 @@ ORDER = [
     "95_parquet.py",
     "97_gini.py",
     "98_residuals.py",
+    "99_brier.py",
+    "100_ridge_lasso.py",
+    "101_softmax_stable.py",
 ]
 
 
