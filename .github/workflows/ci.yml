@@ -1,0 +1,24 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  light:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ai-sr-engineer-manual
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install light deps
+        run: python3 -m pip install -r requirements-light.txt
+      - name: CPU lab sweep
+        run: python3 labs/run_cpu_labs.py
+      - name: Pytest without torch
+        run: make test-light

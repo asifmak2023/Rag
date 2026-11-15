@@ -14,4 +14,5 @@ python3 ai-sr-engineer-manual/labs/run_cpu_labs.py
 Light sweep skips torch labs if torch is not installed.
 CPU torch: `pip install torch --index-url https://download.pytorch.org/whl/cpu`
 Then `cd ai-sr-engineer-manual && make test`.
+CI on `main` runs the light sweep + `make test-light`.
 Capstones: `ai-sr-engineer-manual/capstone-a-churn/` and `capstone-b-images/`.

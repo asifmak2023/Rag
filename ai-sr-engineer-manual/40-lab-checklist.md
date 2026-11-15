@@ -89,5 +89,5 @@
 ## Sweep
 
 ```bash
-python labs/run_cpu_labs.py
+python3 labs/run_cpu_labs.py
 ```
