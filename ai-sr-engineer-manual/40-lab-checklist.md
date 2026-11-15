@@ -64,6 +64,8 @@
 - [ ] `labs/101_softmax_stable.py`
 - [ ] `labs/105_temperature.py`
 - [ ] `labs/107_batch_predict.py`
+- [ ] `labs/111_welford.py`
+- [ ] `labs/114_parity.py`
 - [ ] `labs/tests/test_predict_contract.py` via pytest
 - [ ] `labs/churn_proto/tests/test_features.py` via pytest
 

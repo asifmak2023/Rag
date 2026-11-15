@@ -43,6 +43,8 @@ Start here if you are lost.
 39. `102` shadow mode, `103` ML code review, `104` night-before
 40. `105` temperature scaling, `106` mixup, `107` batch predict
 41. `108` n_jobs, `109` frozen splits, `110` what not to study
+42. `111` Welford, `112` label smoothing, `113` checkpoints
+43. `114` train/serve parity, `115` stop and train
 
 Install light (no torch/tf) for weeks 1-4:
 

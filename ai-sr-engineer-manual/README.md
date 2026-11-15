@@ -148,6 +148,11 @@ ai-sr-engineer-manual/
   108-joblib-njobs.md
   109-seed-split-story.md
   110-what-not-to-study.md
+  111-welford.md
+  112-label-smoothing.md
+  113-checkpoints.md
+  114-train-serve-parity.md
+  115-stop-and-train.md
   INDEX.md
   requirements.txt
   requirements-light.txt

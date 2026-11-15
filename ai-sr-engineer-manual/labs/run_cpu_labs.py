@@ -82,6 +82,8 @@ ORDER = [
     "101_softmax_stable.py",
     "105_temperature.py",
     "107_batch_predict.py",
+    "111_welford.py",
+    "114_parity.py",
 ]
 
 

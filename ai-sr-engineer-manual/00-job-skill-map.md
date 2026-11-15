@@ -30,7 +30,7 @@ production loop. This table is the gap.
 | Degree CS/IT | You have MCS. State it cleanly | 12, 25 |
 | 4+ years, Python/R/MATLAB | Translate MATLAB/C++ years into Python ML years with projects | 11, 12, 25 |
 | Data science, linear algebra, algorithms, stats | Derivations you can do on a whiteboard in 10 minutes | 02, 24 |
-| Large data streams, efficient code | Generators, chunking, vectorization, hashing, no Python loops on rows | 06, 87 |
+| Large data streams, efficient code | Generators, chunking, Welford, vectorization, hashing, no Python loops on rows | 06, 87, 111 |
 | DL/ML algorithms and frameworks | Logistic, trees, SVM, NB, kNN, PCA, k-means, NN, CNN, TF-IDF, GBDT | 03, 04, 05, 16, 17, 24, 33, 71, 72, 73 |
 | Communication | One-page design notes, oral walkthrough of a model | 10, 12, 18, 25 |
 | Current / expected salary, notice, onsite | Prepare numbers. Do not improvise in the room | 12, 14 |
