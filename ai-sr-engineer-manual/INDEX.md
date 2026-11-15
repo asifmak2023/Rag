@@ -52,5 +52,6 @@ Install light (no torch/tf) for weeks 1-4:
 pip install -r requirements-light.txt
 ```
 
-CPU lab sweep: `python labs/run_cpu_labs.py` (needs the venv).
+CPU lab sweep: `python3 labs/run_cpu_labs.py` (needs the venv).
+Torch labs are skipped automatically if torch is not installed.
 Skip `05_keras_mlp.py` until TensorFlow is installed.

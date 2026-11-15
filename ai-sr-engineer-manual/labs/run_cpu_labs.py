@@ -15,6 +15,24 @@ ROOT = Path(__file__).resolve().parent
 SKIP = {
     "run_cpu_labs.py",
 }
+TORCH_LABS = {
+    "04_linear_torch.py",
+    "04_mlp_tabular.py",
+    "04_cnn.py",
+    "17_cnn_synthetic.py",
+    "74_sgd_vs_adam.py",
+    "78_ce_weight.py",
+    "86_shapes.py",
+}
+
+
+def _has_torch() -> bool:
+    try:
+        import torch  # noqa: F401
+
+        return True
+    except ImportError:
+        return False
 ORDER = [
     "01_numpy_warmup.py",
     "01_pandas_etl.py",
@@ -89,9 +107,12 @@ ORDER = [
 
 def main():
     failed = []
+    skip_torch = not _has_torch()
+    if skip_torch:
+        print("torch not installed; skipping", sorted(TORCH_LABS))
     for name in ORDER:
         path = ROOT / name
-        if name in SKIP or not path.exists():
+        if name in SKIP or not path.exists() or (skip_torch and name in TORCH_LABS):
             print("SKIP", name)
             continue
         print("===", name, "===")
