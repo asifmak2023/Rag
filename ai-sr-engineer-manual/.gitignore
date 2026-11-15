@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.ruff_cache/
+
+labs/data/
+labs/keras_mlp.keras
+labs/matlab_port_plot.png
+labs/serve/model.joblib
+capstone-a-churn/data/*.csv
+capstone-a-churn/artifacts/*.joblib
+capstone-a-churn/artifacts/*.json
+capstone-b-images/artifacts/*.pt
