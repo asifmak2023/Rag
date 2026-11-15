@@ -19,7 +19,7 @@ the week. Do not start PyTorch weak on sklearn. Most business AI is tabular.
 | Week | Chapter | Outcome |
 |---|---|---|
 | 5 | 04 PyTorch tensors and autograd | Manual linear regression in torch. |
-| 6 | 04 training loops, CNNs | Train a CNN on a small image set, plot curves. |
+| 6 | 04 + 74 + 75 | CNN, Adam vs SGD talk, early stopping. |
 | 7 | 04 transfer + 16 NLP + 17 CV | TF-IDF baseline, CNN loop, freeze-head talk. |
 | 8 | 05 TensorFlow/Keras | Same CNN in Keras, SavedModel export. |
 

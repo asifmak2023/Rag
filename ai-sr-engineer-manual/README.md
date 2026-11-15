@@ -111,6 +111,13 @@ ai-sr-engineer-manual/
   71-knn-nb-svm.md
   72-pca.md
   73-clustering.md
+  74-optimizers.md
+  75-schedules-earlystop.md
+  76-vanishing-exploding.md
+  77-init-seed-repro-torch.md
+  78-class-weights-torch.md
+  79-transfer-learning-talk.md
+  80-ab-test-ml.md
   INDEX.md
   requirements.txt
   requirements-light.txt

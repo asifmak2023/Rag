@@ -31,6 +31,8 @@ Start here if you are lost.
 27. `63` schema contract, `64` profiling, `65` weekly demos
 28. `66` log loss, `67` missing, `68` outliers, `69` encoding
 29. `70` scaling, `71` kNN/NB/SVM, `72` PCA, `73` k-means
+30. `74` optimizers, `75` schedules/early stop, `76` gradients
+31. `77` torch seed, `78` CE weights, `79` transfer talk, `80` A/B
 
 Install light (no torch/tf) for weeks 1-4:
 

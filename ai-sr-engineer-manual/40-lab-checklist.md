@@ -40,6 +40,9 @@
 - [ ] `labs/71_nb_svm.py`
 - [ ] `labs/72_pca.py`
 - [ ] `labs/73_kmeans.py`
+- [ ] `labs/74_sgd_vs_adam.py`
+- [ ] `labs/75_early_stop.py`
+- [ ] `labs/78_ce_weight.py`
 - [ ] `labs/tests/test_predict_contract.py` via pytest
 - [ ] `labs/churn_proto/tests/test_features.py` via pytest
 

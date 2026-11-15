@@ -58,6 +58,9 @@ ORDER = [
     "71_nb_svm.py",
     "72_pca.py",
     "73_kmeans.py",
+    "74_sgd_vs_adam.py",
+    "75_early_stop.py",
+    "78_ce_weight.py",
 ]
 
 
