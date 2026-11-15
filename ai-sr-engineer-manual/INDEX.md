@@ -37,6 +37,8 @@ Start here if you are lost.
 33. `84` feature select, `85` pipeline memory, `86` CNN shapes
 34. `87` hashing, `88` cosine/RAG retrieval, `89` cost threshold
 35. `90` time-split assert, `91` dummy baselines
+36. `92` learning curves, `93` permutation importance, `94` isolation forest
+37. `95` parquet, `96` SLO/runbook, `97` gini, `98` residuals
 
 Install light (no torch/tf) for weeks 1-4:
 

@@ -129,6 +129,13 @@ ai-sr-engineer-manual/
   89-cost-threshold.md
   90-time-split-lab.md
   91-dummy-baselines.md
+  92-learning-curves.md
+  93-permutation-importance.md
+  94-anomaly.md
+  95-parquet.md
+  96-slo-runbook.md
+  97-tree-impurity.md
+  98-residuals.md
   INDEX.md
   requirements.txt
   requirements-light.txt

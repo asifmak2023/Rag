@@ -71,6 +71,12 @@ ORDER = [
     "89_cost.py",
     "90_time_split.py",
     "91_dummy.py",
+    "92_learning_curve.py",
+    "93_perm.py",
+    "94_iforest.py",
+    "95_parquet.py",
+    "97_gini.py",
+    "98_residuals.py",
 ]
 
 

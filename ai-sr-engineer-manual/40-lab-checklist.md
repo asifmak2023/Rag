@@ -53,6 +53,12 @@
 - [ ] `labs/89_cost.py`
 - [ ] `labs/90_time_split.py`
 - [ ] `labs/91_dummy.py`
+- [ ] `labs/92_learning_curve.py`
+- [ ] `labs/93_perm.py`
+- [ ] `labs/94_iforest.py`
+- [ ] `labs/95_parquet.py`
+- [ ] `labs/97_gini.py`
+- [ ] `labs/98_residuals.py`
 - [ ] `labs/tests/test_predict_contract.py` via pytest
 - [ ] `labs/churn_proto/tests/test_features.py` via pytest
 

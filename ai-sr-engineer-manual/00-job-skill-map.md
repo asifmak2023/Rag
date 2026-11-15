@@ -25,7 +25,7 @@ production loop. This table is the gap.
 | Deploy: containers, microservices, cloud | Docker image, REST service, health checks, ONNX, API key | 08, 49, 50 |
 | Test performance, reliability, security | Metrics, holdout, adversarial inputs, auth on the API | 07, 08 |
 | Research and experiments | Baselines first, then ablations, then a written result | 10 |
-| Monitor and recommend improvements | Logs, drift sketch, latency, error budget | 09 |
+| Monitor and recommend improvements | Logs, drift sketch, latency, error budget, runbook | 09, 96 |
 | Stay current | One paper or release note per week, one paragraph of impact | 10 |
 | Degree CS/IT | You have MCS. State it cleanly | 12, 25 |
 | 4+ years, Python/R/MATLAB | Translate MATLAB/C++ years into Python ML years with projects | 11, 12, 25 |
