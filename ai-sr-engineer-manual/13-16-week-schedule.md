@@ -29,7 +29,7 @@ Gate: you can train, overfit on purpose, then regularize, in both frameworks.
 
 | Week | Chapter | Outcome |
 |---|---|---|
-| 9 | 06 Data engineering | Chunked ETL, SQL features, streaming-style generator. |
+| 9 | 06 + 32 + 41 + 43 | Chunked ETL, SQL features, time split, batch scores. |
 | 10 | 07 Evaluation and testing | Metrics, pytest on a model, security basics. |
 | 11 | 08 Deploy | FastAPI + Docker + /predict + /health. |
 | 12 | 09 + 10 | Logging, a drift alarm sketch, experiment writeup. |

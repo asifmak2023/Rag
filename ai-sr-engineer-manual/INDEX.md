@@ -19,6 +19,9 @@ Start here if you are lost.
 15. `35` git, `36` Linux, `37` resources
 16. `38` self-audit before you apply
 17. `39` spoken scripts, `40` lab ticks
+18. `41` time series, `42` ranking, `43` batch scoring
+19. `44` stats, `45` feature store lite, `46` error table
+20. `47` onsite logistics for Bahria Complex 1
 
 Install light (no torch/tf) for weeks 1-4:
 

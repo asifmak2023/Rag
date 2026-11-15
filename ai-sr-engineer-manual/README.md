@@ -78,6 +78,13 @@ ai-sr-engineer-manual/
   38-self-audit.md
   39-office-hours-script.md
   40-lab-checklist.md
+  41-time-series.md
+  42-ranking.md
+  43-batch-scoring.md
+  44-stats-for-engineers.md
+  45-feature-store-lite.md
+  46-errors-you-will-see.md
+  47-karachi-onsite-logistics.md
   INDEX.md
   requirements.txt
   requirements-light.txt

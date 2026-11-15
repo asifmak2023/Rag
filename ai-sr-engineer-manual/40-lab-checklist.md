@@ -20,6 +20,10 @@
 - [ ] `labs/32_sql_windows.py`
 - [ ] `labs/33_lightgbm.py`
 - [ ] `labs/34_calibration.py`
+- [ ] `labs/41_naive_forecast.py`
+- [ ] `labs/42_ndcg.py`
+- [ ] `labs/43_batch_score.py`
+- [ ] `labs/44_mean_median.py`
 - [ ] `labs/tests/test_predict_contract.py` via pytest
 - [ ] `labs/churn_proto/tests/test_features.py` via pytest
 

@@ -38,6 +38,10 @@ ORDER = [
     "32_sql_windows.py",
     "33_lightgbm.py",
     "34_calibration.py",
+    "41_naive_forecast.py",
+    "42_ndcg.py",
+    "43_batch_score.py",
+    "44_mean_median.py",
 ]
 
 
