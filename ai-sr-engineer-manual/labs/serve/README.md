@@ -1,7 +1,7 @@
 # Tiny model service
 
 ```bash
-python labs/serve/train_tiny.py
+python3 labs/serve/train_tiny.py
 uvicorn labs.serve.app:app --host 0.0.0.0 --port 8000
 ```
 

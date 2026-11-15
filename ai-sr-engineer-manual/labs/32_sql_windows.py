@@ -3,7 +3,7 @@ from pathlib import Path
 
 import pandas as pd
 
-path = Path("labs/data/toy_windows.db")
+path = Path(__file__).resolve().parent / "data" / "toy_windows.db"
 path.parent.mkdir(parents=True, exist_ok=True)
 con = sqlite3.connect(path)
 

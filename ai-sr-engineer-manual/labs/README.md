@@ -31,7 +31,7 @@ Suggested order:
 Sweep (no servers, no TensorFlow):
 
 ```bash
-python labs/run_cpu_labs.py
+python3 labs/run_cpu_labs.py
 ```
 
 Starter scripts in this folder are the minimum runnable versions of the

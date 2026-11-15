@@ -2,7 +2,7 @@
 
 From repo root or this folder:
 
-    python labs/run_cpu_labs.py
+    python3 labs/run_cpu_labs.py
 """
 
 from __future__ import annotations

@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-path = Path("labs/data")
+path = Path(__file__).resolve().parent / "data"
 path.mkdir(parents=True, exist_ok=True)
 df = pd.DataFrame(
     {

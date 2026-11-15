@@ -46,7 +46,7 @@ Python still wins for real parsing. CLI is for "is this file empty".
 python3 -m venv ~/ai-env
 source ~/ai-env/bin/activate
 pip install -r requirements-light.txt
-python labs/run_cpu_labs.py
+python3 labs/run_cpu_labs.py
 deactivate
 ```
 

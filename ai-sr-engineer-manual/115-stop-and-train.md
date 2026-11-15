@@ -18,5 +18,5 @@ before. Honest years on the CV (chapter 25). Onsite yes (chapter 47).
 
 ## If you ask to "continue the manual" again
 
-Run `python labs/run_cpu_labs.py` instead. Read `110-what-not-to-study.md`.
+Run `python3 labs/run_cpu_labs.py` instead. Read `110-what-not-to-study.md`.
 The remaining gap is practice, not another file.

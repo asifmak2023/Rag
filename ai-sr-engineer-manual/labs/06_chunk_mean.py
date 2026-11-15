@@ -3,7 +3,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-path = Path("labs/data/big.csv")
+path = Path(__file__).resolve().parent / "data" / "big.csv"
 path.parent.mkdir(parents=True, exist_ok=True)
 n = 50_000
 rng = np.random.default_rng(0)

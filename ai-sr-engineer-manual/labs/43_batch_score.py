@@ -7,7 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler
 
-art = Path("labs/data")
+art = Path(__file__).resolve().parent / "data"
 art.mkdir(parents=True, exist_ok=True)
 X, y = make_classification(n_samples=500, n_features=8, random_state=0)
 pipe = Pipeline(

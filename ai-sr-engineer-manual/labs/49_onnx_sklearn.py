@@ -19,7 +19,7 @@ try:
     onx = convert_sklearn(
         pipe, initial_types=[("input", FloatTensorType([None, 8]))]
     )
-    out = Path("labs/data")
+    out = Path(__file__).resolve().parent / "data"
     out.mkdir(parents=True, exist_ok=True)
     path = out / "logreg.onnx"
     path.write_bytes(onx.SerializeToString())

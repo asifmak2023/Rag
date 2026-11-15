@@ -2,9 +2,8 @@
 
 ## Day 0 (today, 90 minutes)
 
-1. Create the venv, install `requirements.txt` (torch/tf can wait until
-   week 5 if the install is heavy; install numpy pandas sklearn fastapi
-   first).
+1. Create the venv, install `requirements-light.txt` (torch/tf wait until
+   week 5).
 2. Read `00-job-skill-map.md` and `14-onsite-cheatsheet.md`.
 3. Write salary, notice, onsite sentence in `12-interview-onsite.md`
    on paper.
@@ -38,8 +37,13 @@ must not appear. Confirm the assert.
 
 ## Day 6
 
-`python labs/serve/train_tiny.py` then uvicorn the tiny API.
-curl /health and /predict. This is your first "deployed model".
+```bash
+python3 labs/serve/train_tiny.py
+uvicorn labs.serve.app:app --host 0.0.0.0 --port 8000
+```
+
+Then curl `/health` and `/predict` from `labs/serve/README.md`.
+This is your first deployed model.
 
 ## Day 7
 
