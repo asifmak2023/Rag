@@ -28,6 +28,10 @@
 - [ ] `labs/49_onnx_sklearn.py`
 - [ ] `labs/51_imbalance.py`
 - [ ] `labs/52_eda.py`
+- [ ] `labs/56_config.py`
+- [ ] `labs/57_metrics_scratch.py`
+- [ ] `labs/61_group_split.py`
+- [ ] `labs/63_schema.py`
 - [ ] `labs/tests/test_predict_contract.py` via pytest
 - [ ] `labs/churn_proto/tests/test_features.py` via pytest
 

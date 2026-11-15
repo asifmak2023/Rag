@@ -25,6 +25,10 @@ Start here if you are lost.
 21. `48` seeds/versions, `49` ONNX, `50` API key
 22. `51` imbalance, `52` EDA tour
 23. `53` pytest, `54` JSON logs, `55` model card
+24. `56` train config, `57` metrics from scratch, `58` ensembles
+25. `59` labels, `60` transformers/LLM honesty
+26. `61` CV types, `62` regularization picture
+27. `63` schema contract, `64` profiling, `65` weekly demos
 
 Install light (no torch/tf) for weeks 1-4:
 

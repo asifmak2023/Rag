@@ -46,6 +46,10 @@ ORDER = [
     "49_onnx_sklearn.py",
     "51_imbalance.py",
     "52_eda.py",
+    "56_config.py",
+    "57_metrics_scratch.py",
+    "61_group_split.py",
+    "63_schema.py",
 ]
 
 

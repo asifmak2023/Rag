@@ -93,6 +93,16 @@ ai-sr-engineer-manual/
   53-unit-test-models.md
   54-logging-json.md
   55-model-card.md
+  56-experiment-config.md
+  57-metrics-from-scratch.md
+  58-ensembles.md
+  59-labeling.md
+  60-transformers-honest.md
+  61-cross-validation.md
+  62-regularization-picture.md
+  63-data-contracts.md
+  64-profiling.md
+  65-week-by-week-outcomes.md
   INDEX.md
   requirements.txt
   requirements-light.txt
