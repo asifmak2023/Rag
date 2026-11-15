@@ -50,6 +50,14 @@ ORDER = [
     "57_metrics_scratch.py",
     "61_group_split.py",
     "63_schema.py",
+    "66_logloss.py",
+    "67_missing.py",
+    "68_clip.py",
+    "69_onehot_unknown.py",
+    "70_scale.py",
+    "71_nb_svm.py",
+    "72_pca.py",
+    "73_kmeans.py",
 ]
 
 

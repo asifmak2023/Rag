@@ -29,6 +29,8 @@ Start here if you are lost.
 25. `59` labels, `60` transformers/LLM honesty
 26. `61` CV types, `62` regularization picture
 27. `63` schema contract, `64` profiling, `65` weekly demos
+28. `66` log loss, `67` missing, `68` outliers, `69` encoding
+29. `70` scaling, `71` kNN/NB/SVM, `72` PCA, `73` k-means
 
 Install light (no torch/tf) for weeks 1-4:
 

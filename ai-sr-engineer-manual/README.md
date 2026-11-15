@@ -103,6 +103,14 @@ ai-sr-engineer-manual/
   63-data-contracts.md
   64-profiling.md
   65-week-by-week-outcomes.md
+  66-probability-calibration-talk.md
+  67-missing-data.md
+  68-outliers.md
+  69-encoding.md
+  70-scaling.md
+  71-knn-nb-svm.md
+  72-pca.md
+  73-clustering.md
   INDEX.md
   requirements.txt
   requirements-light.txt

@@ -32,6 +32,14 @@
 - [ ] `labs/57_metrics_scratch.py`
 - [ ] `labs/61_group_split.py`
 - [ ] `labs/63_schema.py`
+- [ ] `labs/66_logloss.py`
+- [ ] `labs/67_missing.py`
+- [ ] `labs/68_clip.py`
+- [ ] `labs/69_onehot_unknown.py`
+- [ ] `labs/70_scale.py`
+- [ ] `labs/71_nb_svm.py`
+- [ ] `labs/72_pca.py`
+- [ ] `labs/73_kmeans.py`
 - [ ] `labs/tests/test_predict_contract.py` via pytest
 - [ ] `labs/churn_proto/tests/test_features.py` via pytest
 
