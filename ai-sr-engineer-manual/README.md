@@ -124,6 +124,11 @@ ai-sr-engineer-manual/
   84-feature-selection.md
   85-pipeline-memory.md
   86-torch-shapes.md
+  87-hashing-trick.md
+  88-cosine-sim.md
+  89-cost-threshold.md
+  90-time-split-lab.md
+  91-dummy-baselines.md
   INDEX.md
   requirements.txt
   requirements-light.txt

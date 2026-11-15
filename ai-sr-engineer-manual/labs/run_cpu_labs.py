@@ -66,6 +66,11 @@ ORDER = [
     "83_multiclass.py",
     "84_select.py",
     "86_shapes.py",
+    "87_hashing.py",
+    "88_cosine.py",
+    "89_cost.py",
+    "90_time_split.py",
+    "91_dummy.py",
 ]
 
 

@@ -35,6 +35,8 @@ Start here if you are lost.
 31. `77` torch seed, `78` CE weights, `79` transfer talk, `80` A/B
 32. `81` ROC/PR, `82` regression metrics, `83` multiclass
 33. `84` feature select, `85` pipeline memory, `86` CNN shapes
+34. `87` hashing, `88` cosine/RAG retrieval, `89` cost threshold
+35. `90` time-split assert, `91` dummy baselines
 
 Install light (no torch/tf) for weeks 1-4:
 

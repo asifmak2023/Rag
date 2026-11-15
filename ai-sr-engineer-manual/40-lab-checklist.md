@@ -48,6 +48,11 @@
 - [ ] `labs/83_multiclass.py`
 - [ ] `labs/84_select.py`
 - [ ] `labs/86_shapes.py`
+- [ ] `labs/87_hashing.py`
+- [ ] `labs/88_cosine.py`
+- [ ] `labs/89_cost.py`
+- [ ] `labs/90_time_split.py`
+- [ ] `labs/91_dummy.py`
 - [ ] `labs/tests/test_predict_contract.py` via pytest
 - [ ] `labs/churn_proto/tests/test_features.py` via pytest
 
