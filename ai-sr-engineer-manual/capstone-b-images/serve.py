@@ -1,3 +1,4 @@
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 import numpy as np
@@ -8,9 +9,27 @@ from pydantic import BaseModel, Field
 from model import TinyCNN
 
 ART = Path(__file__).resolve().parent / "artifacts" / "cnn.pt"
-app = FastAPI(title="cnn-capstone")
 model = None
 MODEL_VERSION = "tiny-cnn-v1"
+
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    global model
+    if not ART.exists():
+        raise RuntimeError("artifacts/cnn.pt missing; run python train.py")
+    bundle = torch.load(ART, map_location="cpu", weights_only=False)
+    m = TinyCNN()
+    m.load_state_dict(bundle["state_dict"])
+    m.eval()
+    with torch.no_grad():
+        m(torch.zeros(1, 1, 16, 16))
+    model = m
+    yield
+    model = None
+
+
+app = FastAPI(title="cnn-capstone", lifespan=lifespan)
 
 
 class PredictIn(BaseModel):
@@ -23,20 +42,6 @@ class PredictOut(BaseModel):
     label: int
     model_version: str
     request_id: str
-
-
-@app.on_event("startup")
-def load_model():
-    global model
-    if not ART.exists():
-        raise RuntimeError("artifacts/cnn.pt missing; run python train.py")
-    bundle = torch.load(ART, map_location="cpu", weights_only=False)
-    m = TinyCNN()
-    m.load_state_dict(bundle["state_dict"])
-    m.eval()
-    model = m
-    with torch.no_grad():
-        model(torch.zeros(1, 1, 16, 16))
 
 
 @app.get("/health")

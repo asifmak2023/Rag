@@ -56,3 +56,4 @@ CPU lab sweep: `python3 labs/run_cpu_labs.py` (needs the venv).
 Torch labs are skipped automatically if torch is not installed.
 Skip `05_keras_mlp.py` until TensorFlow is installed.
 Pytest: `make test` (runs each project separately; do not mix `src` trees).
+CPU torch: `pip install torch --index-url https://download.pytorch.org/whl/cpu`

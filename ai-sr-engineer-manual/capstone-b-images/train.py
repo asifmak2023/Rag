@@ -32,7 +32,7 @@ def main():
             loss = loss_fn(model(xb), yb)
             loss.backward()
             opt.step()
-            total += float(loss) * len(xb)
+            total += float(loss.detach()) * len(xb)
         model.eval()
         with torch.no_grad():
             val = float((model(Xte).argmax(1) == yte).float().mean())

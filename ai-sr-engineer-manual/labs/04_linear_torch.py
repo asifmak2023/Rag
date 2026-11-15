@@ -18,4 +18,4 @@ for _ in range(400):
     loss.backward()
     opt.step()
 
-print("w", w.detach().tolist(), "b", float(b.detach()), "loss", float(loss))
+print("w", w.detach().tolist(), "b", float(b.detach()), "loss", float(loss.detach()))

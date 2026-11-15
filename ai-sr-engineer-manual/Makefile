@@ -10,3 +10,4 @@ test:
 	python3 -m pytest labs/tests -q
 	python3 -m pytest labs/churn_proto/tests -q
 	python3 -m pytest capstone-a-churn/tests -q
+	python3 -m pytest capstone-b-images/tests -q
