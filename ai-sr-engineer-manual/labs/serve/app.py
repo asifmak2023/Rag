@@ -1,3 +1,4 @@
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 import joblib
@@ -6,9 +7,21 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel, Field
 
 MODEL_PATH = Path(__file__).with_name("model.joblib")
-app = FastAPI(title="churn-score")
 model = None
 N_FEATURES = 8
+
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    global model
+    if not MODEL_PATH.exists():
+        raise RuntimeError("model.joblib missing; run train_tiny.py")
+    model = joblib.load(MODEL_PATH)
+    yield
+    model = None
+
+
+app = FastAPI(title="churn-score", lifespan=lifespan)
 
 
 class PredictIn(BaseModel):
@@ -20,14 +33,6 @@ class PredictOut(BaseModel):
     prob: float
     label: int
     request_id: str
-
-
-@app.on_event("startup")
-def load_model():
-    global model
-    if not MODEL_PATH.exists():
-        raise RuntimeError("model.joblib missing; run train_tiny.py")
-    model = joblib.load(MODEL_PATH)
 
 
 @app.get("/health")

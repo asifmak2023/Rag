@@ -1,3 +1,4 @@
+from contextlib import asynccontextmanager
 from pathlib import Path
 
 import joblib
@@ -10,9 +11,20 @@ from .features import add_ratio_features
 
 ROOT = Path(__file__).resolve().parents[1]
 ART = ROOT / "artifacts" / "model.joblib"
-
-app = FastAPI(title="churn-capstone")
 bundle = None
+
+
+@asynccontextmanager
+async def lifespan(_app: FastAPI):
+    global bundle
+    if not ART.exists():
+        raise RuntimeError("artifacts/model.joblib missing; run python -m src.train")
+    bundle = joblib.load(ART)
+    yield
+    bundle = None
+
+
+app = FastAPI(title="churn-capstone", lifespan=lifespan)
 
 
 class PredictIn(BaseModel):
@@ -31,14 +43,6 @@ class PredictOut(BaseModel):
     threshold: float
     model_version: str
     request_id: str
-
-
-@app.on_event("startup")
-def load_model():
-    global bundle
-    if not ART.exists():
-        raise RuntimeError("artifacts/model.joblib missing; run python -m src.train")
-    bundle = joblib.load(ART)
 
 
 @app.get("/health")
