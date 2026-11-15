@@ -118,6 +118,12 @@ ai-sr-engineer-manual/
   78-class-weights-torch.md
   79-transfer-learning-talk.md
   80-ab-test-ml.md
+  81-roc-pr.md
+  82-regression-metrics.md
+  83-multiclass.md
+  84-feature-selection.md
+  85-pipeline-memory.md
+  86-torch-shapes.md
   INDEX.md
   requirements.txt
   requirements-light.txt

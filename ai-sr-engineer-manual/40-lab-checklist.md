@@ -43,6 +43,11 @@
 - [ ] `labs/74_sgd_vs_adam.py`
 - [ ] `labs/75_early_stop.py`
 - [ ] `labs/78_ce_weight.py`
+- [ ] `labs/81_roc_pr.py`
+- [ ] `labs/82_regression.py`
+- [ ] `labs/83_multiclass.py`
+- [ ] `labs/84_select.py`
+- [ ] `labs/86_shapes.py`
 - [ ] `labs/tests/test_predict_contract.py` via pytest
 - [ ] `labs/churn_proto/tests/test_features.py` via pytest
 

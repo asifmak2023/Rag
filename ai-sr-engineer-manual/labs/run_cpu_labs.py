@@ -61,6 +61,11 @@ ORDER = [
     "74_sgd_vs_adam.py",
     "75_early_stop.py",
     "78_ce_weight.py",
+    "81_roc_pr.py",
+    "82_regression.py",
+    "83_multiclass.py",
+    "84_select.py",
+    "86_shapes.py",
 ]
 
 

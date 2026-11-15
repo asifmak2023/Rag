@@ -33,6 +33,8 @@ Start here if you are lost.
 29. `70` scaling, `71` kNN/NB/SVM, `72` PCA, `73` k-means
 30. `74` optimizers, `75` schedules/early stop, `76` gradients
 31. `77` torch seed, `78` CE weights, `79` transfer talk, `80` A/B
+32. `81` ROC/PR, `82` regression metrics, `83` multiclass
+33. `84` feature select, `85` pipeline memory, `86` CNN shapes
 
 Install light (no torch/tf) for weeks 1-4:
 
